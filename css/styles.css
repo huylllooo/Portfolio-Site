@@ -1,0 +1,49 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-color: #181818;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 50px;
+ /*space for fixed navbar*/;
+}
+
+.text-muted {
+    color: #9691B7;
+}
+
+.text-thin {
+    font-weight: 200;
+}
+
+.uda-text-color {
+    color: #ff8900;
+}
+
+.title {
+    color: #d4d5f2;
+    font-size: 3.5em;
+}
+
+.title-logo {
+    width: 100%;
+    max-width: 115px;
+    margin-top: 15px;
+}
+/*center images*/
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.vcenter img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*resize font for small screens*/
+@media (max-width: 445px) {
+    body {
+        font-size: 90%;
+    };
+}

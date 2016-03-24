@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Project 1 - Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,200' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <!-- TODO: create navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="https://www.udacity.com">Home Page</a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navHeaderCollapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Top</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Twitter</a>
+                            </li>
+                            <li><a href="#">Facebook</a>
+                            </li>
+                            <li><a href="#">Google+</a>
+                            </li>
+                            <li><a href="#">Instagram</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About</a>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- TODO: main contents -->
+    <div class="container">
+        <header class="row">
+            <div class="col-md-3 col-sm-3 col-xs-3">
+                <img class="title-logo" id="logo" src="images/logo.svg" alt="Udacity logo">
+            </div>
+            <div class="col-md-9 col-sm-9 col-xs-9 text-right text-uppercase">
+                <h1 class="title text-thin">Huy Nguyen</h1>
+                <h4 class="uda-text-color">Udacian</h4>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive" src="images/sun-1600.jpg" srcset="images/sun-1600.jpg 1600w, images/sun-800.jpg 800w" sizes="100vw" alt="Theme photo">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="uda-text-color text-thin">Featured Work</h2>
+            </div>
+        </div>
+        <section class="row text-center">
+            <div class="col-md-4 col-sm-4 col-xs-7 vcenter">
+                <img class="img-responsive" src="images/sirius-500.jpg" srcset="images/sirius-250.jpg 750w, images/sirius-500.jpg 1500w" sizes="100vw" alt="Featured work 1">
+                <h3 class="text-uppercase uda-text-color">Appify</h3>
+                <p class="text-muted">https://github.com/udacity/appify</p>
+            </div><!--delete extra space between div
+			--><div class="col-md-4 col-sm-4 col-xs-7 vcenter">
+                <img class="img-responsive" src="images/tree-500.jpg" srcset="images/tree-250.jpg 750w, images/tree-500.jpg 1500w" sizes="100vw" alt="Featured work 2">
+                <h3 class="text-uppercase uda-text-color">Sunflower</h3>
+                <p class="text-muted">https://github.com/udacity/sunflower</p>
+            </div><!--delete extra space between div
+			--><div class="col-md-4 col-sm-4 col-xs-7 vcenter">
+                <img class="img-responsive" src="images/nature-500.jpg" srcset="images/nature-250.jpg 750w, images/nature-500.jpg 1500w" sizes="100vw" alt="Featured work 3">
+                <h3 class="text-uppercase uda-text-color">Bokeh</h3>
+                <p class="text-muted">https://github.com/udacity/bokeh</p>
+            </div>
+        </section>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
